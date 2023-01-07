@@ -4,10 +4,11 @@ Since version 4.14 xfce uses gtk3 library for rendering, to solve the problem we
 1. Open or create gtk3 user config file `~/.config/gtk-3.0/gtk.css`
 2. Paste into the code snippet:  
 ```
-#xfwm-tabwin button:hover:not(:checked) {  
-  background: transparent;  
-  outline-color: transparent;  
-  border-color: transparent;  
-  box-shadow: none; }  
+#xfwm-tabwin button:hover:not(:checked) {
+  background: transparent;
+  outline-color: transparent;
+  border-color: transparent;
+  box-shadow: none; }
+
 ```
 3. Save and reboot
